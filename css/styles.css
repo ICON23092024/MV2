@@ -4046,7 +4046,8 @@ td:last-child {
 /* ------------------------------------------------------------------- 
  * ## testimonials
  * ------------------------------------------------------------------- */
-/* .s-testimonials {
+ 
+ .s-testimonials {
     padding-top   : var(--vspace-4_5);
     padding-bottom: var(--vspace-4);
 }
@@ -4065,23 +4066,27 @@ td:last-child {
     position: relative;
 }
 
-.s-testimonials__author {
+    /* .s-testimonials__author {
     display      : inline-block;
     min-height   : var(--vspace-2);
     margin-bottom: var(--vspace-0_625);
     padding-left : calc(2.25 * var(--space));
     position     : relative;
-}
+} */
 
-.s-testimonials__avatar {
-    width        : var(--vspace-1_75);
-    height       : var(--vspace-1_75);
-    border-radius: 100%;
+
+   /* .s-testimonials__avatar {
+    width        : 150px; 
+    height       : 150px; 
+    border-radius: 0; 
     outline      : none;
     position     : absolute;
     top          : 0;
     left         : 0;
-}
+    object-fit   : cover; 
+} */
+
+
 
 .s-testimonials__cite {
     display: block;
@@ -4134,7 +4139,28 @@ td:last-child {
     .folio-entries .entry {
         width: 100%;
     }
-} */
+} 
+
+.video-container-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Pusatkan video secara horizontal */
+    align-items: center; /* Pusatkan video secara vertikal */
+    min-width: 100vw;
+    text-align: center;
+    padding: 10px 0;
+ 
+}
+
+.video-container-custom .video {
+    max-height: 480px;
+    max-width: 854px;
+    border-radius: 20px;
+    /* display: block; Memastikan video ditampilkan sebagai blok */
+
+}
+
+
 
 
 /* ===================================================================
