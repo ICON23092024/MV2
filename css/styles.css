@@ -2702,7 +2702,7 @@ td:last-child {
     line-height   : var(--vspace-1);
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color         : var(--color-1);
+    color         : #fffff;
     transform     : translate(0.2em, 0);
     margin-top    : 0;
 }
